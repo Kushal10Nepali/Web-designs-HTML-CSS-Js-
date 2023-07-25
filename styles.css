@@ -1,0 +1,44 @@
+body{
+    background-color:beige;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+   border-radius: 50%;
+   border: 8px solid blueviolet;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 200vh;
+   
+}
+
+.image-content{
+    border: 3px solid blueviolet;
+    border-radius: 5%;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button > button{
+height: 40px;
+width: 100px;
+}
